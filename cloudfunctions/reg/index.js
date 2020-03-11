@@ -7,9 +7,9 @@ const {
 
 cloud.init()
 
-let AppId = '1300921752'; // 腾讯云 AppId
-let SecretId = 'AKIDu5DC0grP1WM3dAqowteHl6HJBwWw7NPI'; // 腾讯云 SecretId
-let SecretKey = 'tX4XpzzrZBYowslXBez9SnAQXWQJl7JQ'; // 腾讯云 SecretKey
+let AppId = ''; // 腾讯云 AppId
+let SecretId = ''; // 腾讯云 SecretId
+let SecretKey = ''; // 腾讯云 SecretKey
 
 // 云函数入口函数
 exports.main = async (event, context) => {
